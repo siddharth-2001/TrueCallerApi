@@ -19,8 +19,6 @@ A Django based application that can be used to detect and report spam callers.
     - [All Spam Reports](#all-spam-reports)
     - [Create Spam Report](#create-spam-report)
   - [Search](#search)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
