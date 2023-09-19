@@ -1,6 +1,6 @@
-# Project Name
+# TrueCallerApi
 
-Brief description of the project.
+A Django based application that can be used to detect and report spam callers.
 
 ## Table of Contents
 
@@ -69,13 +69,14 @@ For services like Postman, you need to create a user, log in with the credential
 - Method: POST
 - Json Format:
 
-json
+```json
 {
   "name": "",
   "phone": "",
   "password": "",
   "email": "" // optional
 }
+```
 
 ### Login
 
@@ -83,11 +84,12 @@ json
 - **Method:** POST
 - **Json Format:**
 
-json
+```json
 {
   "username": "", // phone you registered with
   "password": ""
 }
+```
 
 ### Contacts
 
@@ -103,12 +105,13 @@ json
 - **Method:** POST
 - **Json Format:**
 
-json
+```json
 {
   "name": "",
   "email": "", // optional
   "phone": ""
 }
+```
 
 ### Spam Reports
 
@@ -124,11 +127,12 @@ json
 - **Method:** POST
 - **Json Format:**
 
-json
+```json
 {
   "name": "",
   "phone": "" // number to report for spamming
 }
+```
 
 ### Search
 
@@ -138,9 +142,10 @@ json
 - **Method:** POST
 - **Json Format:**
 
-json
+```json
 {
   "query": "" // either the phone number or the name of the contact or user
 }
+```
 
 
